@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.5.3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>table</h1>
+        <p>table-dark、table-primary...情境色可以對 table、tr、td 去使用</p>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>條紋行 (table-striped)</h2>
+        <h2>滑入顏色變化 (table-hover)</h2>
+        <table class="table table-dark table-striped table-hover">
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+        </table>
+
+        <h2>.table-active (突顯表格行或單獨的儲存格)</h2>
+        <table class="table table-dark table-hover table-active">
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td class="table-active">1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr class="table-active">
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td class="table-active">1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td class="table-active">1234</td>
+                <td>1234</td>
+            </tr>
+        </table>
+
+        <h2> 帶框表格 (.table-bordered)</h2>
+        <table class="table table-dark table-bordered table-hover border-info">
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+        </table>
+
+        <h2> 不帶框表格 (.table-borderless)</h2>
+        <table class="table table-dark table-hover table-borderless">
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+        </table>
+
+        <h2> 小表格 (.table-sm)</h2>
+        <p>這邊 sm 代表尺寸非斷點</p>
+        <table class="table table-dark table-hover table-sm">
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>1234</td>
+                <td>1234</td>
+            </tr>
+        </table>
+
+        <h1>響應式 table</h1>
+        <P>例如 table-responsive-sm，max-width:575.98px 以下會出現</P>
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-responsive-sm">
+            <table class="table">
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

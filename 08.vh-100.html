@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.5.3.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .bg1 {
+            background: url('https://picsum.photos/1920/1080/?random=10')no-repeat center/cover fixed;
+            height: 500px;
+        }
+
+        .bg2 {
+            background: url('https://picsum.photos/1920/1080/?random=9')no-repeat center/cover fixed;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 三個不同背景顏色的滿版區塊，每個區塊內的 h1 要水平垂直居中 -->
+    <!-- <div class="container"></div> -->
+    <section class="bg-info vh-100 d-flex justify-content-center align-items-center">
+        <h1>SECTION 01</h1>
+    </section>
+    <div class="bg1 d-flex justify-content-center align-items-center text-white">
+        <h1>最新資訊</h1>
+    </div>
+    <section class="bg-pink vh-100 d-flex justify-content-center align-items-center">
+        <h1>SECTION 02</h1>
+    </section>
+    <div class="bg2 d-flex justify-content-center align-items-center text-white">
+        <h1>關於我們</h1>
+    </div>
+    <section class="bg-teal vh-100 d-flex justify-content-center align-items-center">
+        <h1>SECTION 03</h1>
+    </section>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

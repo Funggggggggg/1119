@@ -1,0 +1,28 @@
+:root {
+  --bs-teal-rgb: 22, 231, 196;
+  --bs-box-shadow-lg: 0 0.5rem 3rem rgba(0, 150, 0, 0.15);
+  --bs-box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 150, 0.075);
+  --bs-box-shadow-sm: 0 1rem 0.25rem rgba(150, 0, 0, 0.3);
+  --bs-pink-rgb: 215, 51, 133;
+}
+.bg-teal {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-teal-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-pink {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-pink-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-opacity-85 {
+  --bs-bg-opacity: 0.85;
+}
+
+.border-10 {
+  border-width: 10px !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
